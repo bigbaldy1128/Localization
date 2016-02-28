@@ -15,7 +15,6 @@ namespace WindowsFormsApplication2
         public Form1()
         {
             InitializeComponent();
-            ResourceCulture.SetCurrentCulture("zh-CN");
         }
 
         private void button1_Click(object sender, EventArgs e)

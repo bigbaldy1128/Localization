@@ -25,6 +25,7 @@ namespace WindowsFormsApplication2
             }
 
             cultureInfo = new CultureInfo(name);
+            Thread.CurrentThread.CurrentUICulture = cultureInfo;
         }
 
         /// <summary>

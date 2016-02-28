@@ -16,6 +16,7 @@ namespace WindowsFormsApplication2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            ResourceCulture.SetCurrentCulture("en-US");
             Application.Run(new Form1());
         }
     }
